@@ -53,11 +53,6 @@ nav{
   font-size: 15px;
 }
 
-/**/
-
-
-
-
 /*
 .nav-links a:hover,
 .nav-links a:focus{
@@ -106,8 +101,22 @@ nav{
     transition: transform 0.5s ease-in;
   }
 
+  .nav-links li a{
+    color: #186a3b;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
   .nav-links li{
     opacity: 0;
+  }
+
+  .nav-links a:hover,
+  .nav-links a:focus{
+    background: #186a3b;
+    color: #d4e6f1;
+    padding: 2em 6em;
   }
 
   .hamburger{
