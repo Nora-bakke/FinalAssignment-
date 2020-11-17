@@ -64,16 +64,19 @@ header:after{
   text-transform: uppercase;
 }
 
+/* tips sidene*/
+/*drying*/
+
 .drying-container{
   display: flex;
   margin-top:130px;
   margin-left: 70px;
-  width: 80%;
+  width: 70%;
 }
 
 .drying-text{
-  margin-left: 40px;
-  padding-top: 60px;
+  margin-left: 50px;
+  padding-top: 30px;
   color: #4B4A4A;
 }
 .drying-text h2{
@@ -83,6 +86,37 @@ header:after{
 }
 
 .drying-text p{
+  font-weight: bold;
+  margin-top:25px;
+  font-size: 22px;
+}
+
+/*label*/
+
+.label-container{
+  display: flex;
+  margin-top:130px;
+  margin-left: 70px;
+  width: 70%;
+}
+
+.label-img {
+  width: 600px;
+  height: 400px;
+}
+
+.label-text{
+  margin-left: 50px;
+  padding-top: 60px;
+  color: #4B4A4A;
+}
+.label-text h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.label-text p{
   font-weight: bold;
   margin-top:25px;
   font-size: 22px;
