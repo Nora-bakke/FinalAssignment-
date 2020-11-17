@@ -121,3 +121,32 @@ header:after{
   margin-top:25px;
   font-size: 22px;
 }
+
+/*organizing*/
+.organizing-container{
+  display: flex;
+  margin-top:130px;
+  margin-left: 70px;
+  width: 70%;
+}
+
+.organizing-img {
+  width: 600px;
+  height: 400px;
+}
+
+.organizing-text{
+  margin-left: 50px;
+  padding-top: 60px;
+  color: #4B4A4A;
+}
+.organizing-text h2{
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.organizing-text p{
+  font-weight: bold;
+  margin-top:25px;
+  font-size: 22px;
+}
