@@ -63,3 +63,27 @@ header:after{
   padding: 2em 6em;
   text-transform: uppercase;
 }
+
+.drying-container{
+  display: flex;
+  margin-top:130px;
+  margin-left: 70px;
+  width: 80%;
+}
+
+.drying-text{
+  margin-left: 40px;
+  padding-top: 60px;
+  color: #4B4A4A;
+}
+.drying-text h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.drying-text p{
+  font-weight: bold;
+  margin-top:25px;
+  font-size: 22px;
+}
