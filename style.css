@@ -150,3 +150,95 @@ header:after{
   margin-top:25px;
   font-size: 22px;
 }
+
+/*shoppinglist*/
+
+.shoppinglist-container{
+  display: flex;
+  margin-top:130px;
+  margin-left: 70px;
+  width: 70%;
+}
+
+.shoppinglist-img {
+  width: 600px;
+  height: 400px;
+}
+
+.shoppinglist-text{
+  margin-left: 50px;
+  padding-top: 60px;
+  color: #4B4A4A;
+}
+.shoppinglist-text h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.shoppinglist-text p{
+  font-weight: bold;
+  margin-top:25px;
+  font-size: 22px;
+}
+
+/*vacuum*/
+
+.vacuum-container{
+  display: flex;
+  margin-top:130px;
+  margin-left: 70px;
+  width: 70%;
+}
+
+.vacuum-img {
+  width: 600px;
+  height: 400px;
+}
+
+.vacuum-text{
+  margin-left: 50px;
+  padding-top: 60px;
+  color: #4B4A4A;
+}
+.vacuum-text h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.vacuum-text p{
+  font-weight: bold;
+  margin-top:25px;
+  font-size: 22px;
+}
+
+/*smoothie*/
+.smoothie-container{
+  display: flex;
+  margin-top:130px;
+  margin-left: 70px;
+  width: 70%;
+}
+
+.smoothie-img {
+  width: 600px;
+  height: 400px;
+}
+
+.smoothie-text{
+  margin-left: 50px;
+  padding-top: 60px;
+  color: #4B4A4A;
+}
+.smoothie-text h2{
+  padding-left: 60px;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.smoothie-text p{
+  font-weight: bold;
+  margin-top:25px;
+  font-size: 22px;
+}
