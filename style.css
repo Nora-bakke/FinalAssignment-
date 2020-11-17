@@ -15,7 +15,7 @@ body{
 }
 
 header{
-  background: #ca2373;
+  background: #556B2F;
   color: #FFFAFA;
   padding: 1em 0;
   position: relative;
@@ -43,7 +43,7 @@ header:after{
   position: absolute;
   top: 100%;
   right: 0;
-  background: #4a235a;
+  background: #8FBC8F;
 }
 
 .web-nav ul{
