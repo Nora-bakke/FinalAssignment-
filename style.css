@@ -220,7 +220,7 @@ a i{
   height: 500px;
   position: absolute;
   left: 8%;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   overflow: hidden;
 }
@@ -245,7 +245,7 @@ a i{
 .msg-col p{
   color: #FFFAFA;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 35px;
 }
 
 .msg-col a{
