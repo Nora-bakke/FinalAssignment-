@@ -1205,47 +1205,5 @@ html{
     transform: translate(-50%, -86%);
   }
 }
-/* contact */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #1d322b;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #1d322b;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #ccb8a8;
-  color: #1d322b;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #9ebc99;
-  padding: 20px;
-}
-
-/* footer */
-.content-footer{
-  position: absolute;
-  height: 10vh;
-  width: 100%;
-  top: 100%;
-  justify-content: flex-start;
-  flex-direction: column;
-  text-align: center;
-}
 
 /* End Organize - tips */
