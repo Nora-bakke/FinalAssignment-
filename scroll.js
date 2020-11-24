@@ -28,7 +28,7 @@ function smoothScroll(target, duration) {
 }
 
 
-var scroll = document.querySelector('.scroll');
+var scroll = document.querySelector('.scroll-b');
 
 scroll.addEventListener('click',function() {
   smoothScroll('.smoothie-text', 1000);

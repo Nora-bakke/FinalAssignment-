@@ -66,10 +66,12 @@ a i{
   font-weight: 900;
 }
 
+/*
 .header ul a:active{
   background-color: #a96562;
   color: #1d322b;
 }
+*/
 
 .header .logo{
   float: left;
@@ -168,10 +170,6 @@ a i{
   .header ul a:hover{
     background: transparent;
     color: #ccb8a8;
-  }
-
-  .header ul .nav-link__mobile-only{
-    background-color: #1d322b;
   }
 
   .header ul a::before{
@@ -654,11 +652,11 @@ html{
 
 @keyframes downtwo {
   0%{
-    opacity: 1;
-  }
-  100%{
     opacity: 0;
     transform: translateY(46px);
+  }
+  100%{
+    opacity: 1;
   }
 }
 
