@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>NOwaste</title>
+  </head>
+
+  <body>
+
+    <header class="header">
+      <a href="#home" class="logo">n<i class="fa fa-ban"></i>waste</a>
+      <input type="checkbox" class="menu-btn" id="menu-btn">
+      <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="#">App</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+
+    
+
+      <h3>Contact us here</h3>
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your fist name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your surname..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="Australia">Australia</option>
+              <option value="Canada">Canada</option>
+              <option value="Denmark">Denmark</option>
+              <option value="England">England</option>
+              <option value="Germany">Germany</option>
+              <option value="Norway">Norway</option>
+              <option value="Spain">Spain</option>
+              <option value="Sweden">Sweden</option>
+              <option value="USA">USA</option>
+              <option value="Other">Other...</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write to us here..." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+      <script type="text/javascript">
+
+        var slider = document.getElementById('slider');
+        var active = document.getElementById('active');
+        var line1 = document.getElementById('line1');
+        var line2 = document.getElementById('line2');
+        var line3 = document.getElementById('line3');
+        var line4 = document.getElementById('line4');
+
+        line1.onclick = function(){
+          slider.style.transform = 'translateX(0)';
+          active.style.top = '0px';
+        }
+        line2.onclick = function(){
+          slider.style.transform = 'translateX(-25%)';
+          active.style.top = '80px';
+        }
+        line3.onclick = function(){
+          slider.style.transform = 'translateX(-50%)';
+          active.style.top = '160px';
+        }
+        line4.onclick = function(){
+          slider.style.transform = 'translateX(-75%)';
+          active.style.top = '240px';
+        }
+
+      </script>
+
+      <noscript class="noscript-main">
+        javascript not supported
+      </noscript>
+
+    </div>
+
+    <section class="content-footer" id="content">
+      <p> <i>nOwaste © 2020</i>   //   Oslo, Norway   //  mail@nowaste.no<br><br>We are an information site that works for a more sustainable future. We are mainly run by ads from environmentally conscious and sustainable companies. Do you want to support us and have your ads on our websites and in our app? Send us an email!</p>
+    </section>
+
+  </body>
+</html>
