@@ -304,17 +304,21 @@ a i{
 
 @media screen and (max-height: 700px), screen and (max-width: 995px) {
   .msg-container{
-    width: 350px;
-    height: 330px;
+    width: 360px;
+    height: 460px;
     position: absolute;
     left: 8%;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     overflow: hidden;
   }
+  .msg-col h1{
+    font-size: 40px;
+  }
   .msg-col p{
-    height: 150px;
+    height: 320px;
     width: 360px;
+
   }
   .noscript-main{
     top: 15%;
@@ -611,7 +615,15 @@ html{
 
 /* End Tips - container */
 
-/* Scroll 2.0 down */
+.section11{
+  border: 1px solid red;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+}
+
+/* Scroll 2.0 down *
 
 html{
   scroll-behavior: smooth;
@@ -666,7 +678,7 @@ html{
   }
 }
 
-/* End Scroll 2.0 down */
+* End Scroll 2.0 down */
 
 /* Smoothie - tips */
 

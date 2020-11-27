@@ -1,3 +1,4 @@
+/*
 function smoothScroll(target, duration) {
   var target = document.querySelector(target);
   var targetPosition = target.getBoundingClientRect().top;
@@ -28,8 +29,33 @@ function smoothScroll(target, duration) {
 }
 
 
-var scroll = document.querySelector('.scroll-b');
+var section11 = document.querySelector('.section11');
 
-scroll.addEventListener('click',function() {
-  smoothScroll('.smoothie-text', 1000);
+section11.addEventListener('click',function() {
+  smoothScroll('.section22', 8000);
 });
+*/
+
+var marginY = 0;
+var distinasjon = 0;
+var hastighet = 2;
+var scrollNed = null;
+
+function scrollDown(elementId){
+
+	destinasjon = document.getElementById(elementId).offsetTop;
+
+	scrollNed = setTimeout(function(){
+		scrollDown(elementId);
+	}, 1);
+
+	marginY = marginY + hastighet;
+
+	if(marginY >= destinasjon){
+		clearTimeout(scrollNed);
+	}
+
+	window.scroll(0, marginY);
+
+	//console.log(destinasjon);
+}
