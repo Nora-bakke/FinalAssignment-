@@ -1091,6 +1091,8 @@ html{
     transform: translate(-50%, -86%);
   }
 }
+
+/* End Organize - tips */
 /* contact contact-form */
 
 input[type=text], select, textarea {
@@ -1141,5 +1143,3 @@ input[type=submit]:hover {
   flex-direction: column;
   text-align: center;
 }
-
-/* End Organize - tips */
