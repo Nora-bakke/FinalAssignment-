@@ -397,160 +397,6 @@ html{
 
 /* End Homepage under */
 
-/*TIPS*/
-/*DRYING*/
-
-.drying-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.drying-img {
-  width: 600px;
-  height: 400px;
-}
-
-.drying-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.drying-text h2{
-  padding-left: 170px;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.drying-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-
-/*LABEL*/
-
-.label-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.label-img {
-  width: 600px;
-  height: 400px;
-}
-
-.label-text{
-  margin-left: 50px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.label-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.label-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-
-/* ORGANIZING*/
-
-.organizing-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.organizing-img {
-  width: 600px;
-  height: 400px;
-}
-
-.organizing-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.organizing-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.organizing-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-/*shoppinglist*/
-
-.shoppinglist-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.shoppinglist-img {
-  width: 600px;
-  height: 400px;
-}
-
-.shoppinglist-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.shoppinglist-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.shoppinglist-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-
-/*vacuum*/
-
-.vacuum-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.vacuum-img {
-  width: 600px;
-  height: 400px;
-}
-
-.vacuum-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.vacuum-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.vacuum-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
 
 /* Tips - container */
 
@@ -615,19 +461,7 @@ html{
 
 /* End Tips - container */
 
-.section11{
-  border: 1px solid red;
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -85%);
-}
-
-/* Scroll 2.0 down *
-
-html{
-  scroll-behavior: smooth;
-}
+/* Scroll 2.0 down */
 
 .scroll-b, .scroll-b:before{
   position: absolute;
@@ -672,13 +506,53 @@ html{
   }
 }
 
+.section-scroll{
+  opacity: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  z-index: 1;
+}
+
+#buttonTop{
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  transform: translate(-95%, -90%);
+  z-index: 100;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  border: 5px solid #a96562;
+  border-radius: 80px;
+  font-size: 28px;
+}
+
+#buttonTop i{
+  color: #a96562;
+}
+
+#buttonTop:hover{
+  background-color: #FFFAFA;
+  opacity: 0.6;
+}
+
+
 @media screen and (max-width: 700px) {
-  .scroll-b{
-    display: none;
+  #buttonTop{
+    top: 95%;
+    left: 95%;
+    transform: translate(-95%, -95%);
+    border: 3px solid #4e7851;
+  }
+  #buttonTop i{
+    color: #4e7851;
   }
 }
 
-* End Scroll 2.0 down */
+/* End Scroll 2.0 down */
 
 /* Smoothie - tips */
 
@@ -1218,6 +1092,7 @@ html{
   }
 }
 /* contact contact-form */
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
