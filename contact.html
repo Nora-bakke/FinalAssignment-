@@ -19,43 +19,45 @@
       <ul class="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="tips.html">Tips</a></li>
+        <li><a href="tips.html">Solutions</a></li>
         <li><a href="#">App</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
 
-    
+    <div class="contact-container">
+      <h2>We are an information site that works for a more sustainable future.
+        We are mainly run by ads from environmentally conscious and sustainable
+        companies. Do you want to support us and have your ads on our websites
+        and in our app? Send us an email!</h2>
+      <form action="/action_page.php">
+        <h3>Contact us here:</h3>
+        <label for="fname"><b>First name</b></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your fist name..">
 
-      <h3>Contact us here</h3>
-        <div class="container">
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your fist name..">
+        <label for="lname"><b>Last name</b></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your surname..">
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your surname..">
+        <label for="country"><b>Country</b></label>
+        <select id="country" name="country">
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="Denmark">Denmark</option>
+          <option value="England">England</option>
+          <option value="Germany">Germany</option>
+          <option value="Norway">Norway</option>
+          <option value="Spain">Spain</option>
+          <option value="Sweden">Sweden</option>
+          <option value="USA">USA</option>
+          <option value="Other">Other...</option>
+        </select>
 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="Australia">Australia</option>
-              <option value="Canada">Canada</option>
-              <option value="Denmark">Denmark</option>
-              <option value="England">England</option>
-              <option value="Germany">Germany</option>
-              <option value="Norway">Norway</option>
-              <option value="Spain">Spain</option>
-              <option value="Sweden">Sweden</option>
-              <option value="USA">USA</option>
-              <option value="Other">Other...</option>
-            </select>
+        <label for="subject"><b>Subject</b></label>
+        <textarea id="subject" name="subject" placeholder="Write to us here..." style="height:200px"></textarea>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write to us here..." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-          </form>
-        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
 
       <script type="text/javascript">
 
@@ -92,7 +94,7 @@
     </div>
 
     <section class="content-footer" id="content">
-      <p> <i>nOwaste © 2020</i>   //   Oslo, Norway   //  mail@nowaste.no<br><br>We are an information site that works for a more sustainable future. We are mainly run by ads from environmentally conscious and sustainable companies. Do you want to support us and have your ads on our websites and in our app? Send us an email!</p>
+      <p> <i>nOwaste © 2020</i>   //   Oslo, Norway   //  mail@nowaste.no</p>
     </section>
 
   </body>
