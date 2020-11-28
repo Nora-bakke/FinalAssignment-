@@ -498,11 +498,11 @@ html{
 
 @keyframes downtwo {
   0%{
-    opacity: 0;
-    transform: translateY(46px);
+    opacity: 1;
   }
   100%{
-    opacity: 1;
+    opacity: 0;
+    transform: translateY(46px);
   }
 }
 
@@ -516,6 +516,7 @@ html{
 }
 
 #buttonTop{
+  display: none;
   position: fixed;
   top: 90%;
   left: 95%;
@@ -532,13 +533,25 @@ html{
 
 #buttonTop i{
   color: #a96562;
+  animation-duration: 1.9s;
+  animation-iteration-count: infinite;
+  animation-name: arrowUp;
+}
+
+@keyframes arrowUp {
+  0%{
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 #buttonTop:hover{
-  background-color: #FFFAFA;
-  opacity: 0.6;
+  background-color: #204d48;
+  border: 3px solid #204d48;
 }
-
 
 @media screen and (max-width: 700px) {
   #buttonTop{
