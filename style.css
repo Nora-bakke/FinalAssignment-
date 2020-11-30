@@ -451,7 +451,10 @@ a i{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of cf500a9... everything back to normal
 <<<<<<< Updated upstream
 /*TIPS*/
 /*DRYING*/
@@ -607,6 +610,9 @@ a i{
   margin-top:25px;
   font-size: 22px;
 }
+=======
+<<<<<<< HEAD
+>>>>>>> parent of cf500a9... everything back to normal
 =======
 >>>>>>> parent of cf500a9... everything back to normal
 .text-wrapper{
@@ -891,6 +897,13 @@ a i{
 }
 
 /* Scroll 2.0 down *
+<<<<<<< HEAD
+=======
+
+html{
+  scroll-behavior: smooth;
+}
+>>>>>>> parent of cf500a9... everything back to normal
 
 .scroll-b, .scroll-b:before{
   position: absolute;
@@ -931,9 +944,14 @@ a i{
     transform: translateY(46px);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   100%{
     opacity: 1;
   }
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of cf500a9... everything back to normal
 =======
 <<<<<<< Updated upstream
 =======
