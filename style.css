@@ -1477,3 +1477,67 @@ input[type=submit]:hover {
 .app-text p{
   margin-bottom:10px;
 }
+
+/* contact contact-form */
+.contact-container {
+  background-color: #9ebc99;
+  padding: 20px;
+  position: absolute;
+  padding-top: 5px;
+  height: 120vh;
+  width: 100%;
+  top: 10%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contact-container h2 {
+  color: #1d322b;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 50px;;
+  padding-left: 400px;
+  padding-right: 350px;
+}
+.contact-container h3 {
+  color: #1d322b;
+  line-height: 1.5;
+  text-align: center;
+}
+.contact-container form {
+  padding-top: 50px;
+  padding-left: 350px;
+  padding-right: 300px;
+}
+
+/* about page */
+.about-container {
+  background-color: #9ebc99;
+  color: #1d322b;
+  padding-left: 150px;
+  padding-right: 300px;
+  position: absolute;
+  padding-top: 5px;
+  height: 100vh;
+  width: 100%;
+  top: 10%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.about-container h1 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.about-container h2, p, h3 {
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+.about-container h2 {
+  font-size: 20px;
+}
+.about-container h3 {
+  font-size: 16px;
+}
+.about-container p {
+  font-size: 14px;
+}
