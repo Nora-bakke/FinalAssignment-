@@ -1445,16 +1445,7 @@ input[type=submit]:hover {
   flex-direction: column;
 }
 
-/* footer */
-.content-footer {
-  position: absolute;
-  padding-top: 5px;
-  height: 10vh;
-  width: 100%;
-  justify-content: flex-start;
-  flex-direction: column;
-  text-align: center;
-}
+
 
 /* End Organize - tips */
 
@@ -1540,4 +1531,15 @@ input[type=submit]:hover {
 }
 .about-container p {
   font-size: 14px;
+}
+
+/* footer */
+.content-footer {
+  position: absolute;
+  padding-top: 5px;
+  height: 10vh;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
 }
