@@ -1577,7 +1577,7 @@ input[type=submit]:hover {
   padding-right: 300px;
   position: absolute;
   padding-top: 5px;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
@@ -1600,6 +1600,16 @@ input[type=submit]:hover {
 }
 .about-container p {
   font-size: 14px;
+}
+.about-container ul {
+  list-style: none;
+}
+.about-container li a {
+  color: #1d322b;
+}
+.about-container li a:hover {
+  list-style: none;
+  color: #f4f4f4;
 }
 
 /* footer */
