@@ -80,8 +80,11 @@ a i{
   min-height: 0;
   transition: min-height 0.4s ease-out;
   line-height: 60px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
 }
-
+/*
 .header .menu-icon{
   padding: 15px 10px;
   top: 20px;
@@ -128,6 +131,7 @@ a i{
 
 .header .menu-btn:checked ~ .menu{
   min-height: 100vh;
+  display: contents;
 }
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon{
@@ -841,10 +845,6 @@ a i{
 
 /* Scroll 2.0 down */
 
-html{
-  scroll-behavior: smooth;
-}
-
 .scroll-b, .scroll-b:before{
   position: absolute;
   left: 50%;
@@ -882,6 +882,9 @@ html{
   0%{
     opacity: 0;
     transform: translateY(46px);
+  }
+  100%{
+    opacity: 1;
   }
 }
 
@@ -929,6 +932,9 @@ html{
 
 @media screen and (max-width: 700px) {
   .scroll-b{
+    display: none;
+  }
+  #buttonTop{
     display: none;
   }
 }
