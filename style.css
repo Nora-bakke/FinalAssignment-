@@ -435,7 +435,6 @@ a i{
   color: #1d322b;
 }
 
-<<<<<<< Updated upstream
 /*TIPS*/
 /*DRYING*/
 
@@ -590,7 +589,7 @@ a i{
   margin-top:25px;
   font-size: 22px;
 }
-=======
+
 .text-wrapper{
   position: absolute;
   height: 35%;
@@ -702,7 +701,6 @@ a i{
 }
 
 /* End Homepage under */
->>>>>>> Stashed changes
 
 /* Tips - container */
 
@@ -775,7 +773,7 @@ a i{
   transform: translate(-50%, -85%);
 }
 
-/* Scroll 2.0 down *
+/* Scroll 2.0 down */
 
 html{
   scroll-behavior: smooth;
@@ -819,8 +817,6 @@ html{
     opacity: 0;
     transform: translateY(46px);
   }
-<<<<<<< Updated upstream
-=======
 }
 
 .section-scroll{
@@ -860,7 +856,6 @@ html{
     opacity: 0;
     transform: translateY(35px);
   }
->>>>>>> Stashed changes
   100%{
     opacity: 1;
   }
@@ -872,7 +867,7 @@ html{
   }
 }
 
-* End Scroll 2.0 down */
+/* End Scroll 2.0 down */
 
 /* Smoothie - tips */
 
