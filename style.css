@@ -705,12 +705,9 @@ a i{
   }
 }
 @media screen and (max-width: 770px) {
-  .header ul a{
-    display: none;
-    padding: 20px;
-    text-decoration: none;
-  }
 }
+}
+
 
 
 @media screen and (max-width: 700px) {
@@ -1523,19 +1520,22 @@ input[type=submit]:hover {
 /*app*/
 
 .app-img{
-  background-color: blue;
   margin-top: 120px;
   margin-left: 165px;
 }
 
 .app-text {
   width: 1150px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 165px;
 }
 
 .app-text p{
   margin-bottom:10px;
+}
+
+.app-text h3{
+  padding-bottom: 0px;
 }
 
 /* contact contact-form */
