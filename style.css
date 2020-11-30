@@ -42,7 +42,6 @@ a i{
   overflow: hidden;
   background-color: #1d322b;
   text-align: center;
-  display: none;
 }
 
 .header ul a{
@@ -209,6 +208,7 @@ a i{
   top: 60%;
   transform: translateY(-50%);
   overflow: hidden;
+  border: 1px solid blue;
 }
 
 #slider{
@@ -218,7 +218,8 @@ a i{
 
 .msg-col{
   width: 700px;
-  height: 280px;
+  height: 380px;
+  border: 1px solid red;
 }
 
 .msg-col h1{
@@ -290,13 +291,22 @@ a i{
 
 @media screen and (max-height: 700px), screen and (max-width: 995px) {
   .msg-container{
-    width: 360px;
-    height: 460px;
     position: absolute;
-    left: 8%;
-    top: 55%;
-    transform: translateY(-50%);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    transform: translate(-20%, -70%);
     overflow: hidden;
+  }
+  .msg-col{
+    position: absolute;
+    height: 100%;
+    width: 400%;
+    left: 0%;
+    top: 0%;
+    transform: translate(-0%, -0%);
   }
   .msg-col h1{
     font-size: 40px;
@@ -309,6 +319,17 @@ a i{
   .noscript-main{
     top: 15%;
     right: 100px;
+  }
+  #active{
+    width: 5px;
+    height: 80px;
+    padding: 0;
+    border-radius: 10px;
+    background: #ccb8a8;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    transition: 0.5s;
   }
 }
 
