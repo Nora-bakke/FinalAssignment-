@@ -494,7 +494,7 @@ a i{
 }
 
 .label-text p{
-  font-weight: bold;
+  font-weight: lighter;
   margin-top:25px;
   font-size: 22px;
 }
@@ -586,7 +586,7 @@ a i{
 }
 
 .vacuum-text p{
-  font-weight: bold;
+  font-weight:lighter;
   margin-top:25px;
   font-size: 22px;
 }
