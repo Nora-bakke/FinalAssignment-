@@ -66,13 +66,6 @@ a i{
   font-weight: 900;
 }
 
-/*
-.header ul a:active{
-  background-color: #a96562;
-  color: #1d322b;
-}
-*/
-
 .header .logo{
   float: left;
   display: block;
@@ -272,7 +265,7 @@ a i{
   border-radius: 5px;
 }
 
-#line1, #line2, #line3, #line4, #line5{
+#linje1, #linje2, #linje3, #linje4, #linje5{
   height: 80px;
   width: 10px;
   cursor: pointer;
@@ -330,10 +323,6 @@ a i{
 
 /* Scroll down */
 
-html{
-  scroll-behavior: smooth;
-}
-
 .scroll, .scroll:before{
   position: absolute;
   left: 50%;
@@ -369,12 +358,21 @@ html{
 
 @keyframes down {
   0%{
-    opacity: 1;
-  }
-  100%{
     opacity: 0;
     transform: translateY(46px);
   }
+  100%{
+    opacity: 1;
+  }
+}
+
+.sectionScroll{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 @media screen and (max-width: 700px) {
@@ -387,16 +385,57 @@ html{
 
 /* Homepage under */
 
-#content{
+.content-main{
   position: absolute;
-  border: 1px solid red;
+  height: 100vh;
+  width: 100%;
   justify-content: flex-start;
   flex-direction: column;
-  top: 120%;
+  background: #FFFAFA;
 }
 
-/* End Homepage under */
+.picture-wrapper{
+  position: absolute;
+  height: 75%;
+  width: 45%;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+}
 
+.picture-wrapper img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.h-wrapper{
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 18%;
+  left: 87%;
+  transform: translate(-87%, -18%);
+  border-left: 1px dashed #1d322b;
+}
+
+.h-wrapper a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  font-size: 200%;
+  cursor: pointer;
+  color: #1d322b;
+}
+
+<<<<<<< Updated upstream
 /*TIPS*/
 /*DRYING*/
 
@@ -551,6 +590,119 @@ html{
   margin-top:25px;
   font-size: 22px;
 }
+=======
+.text-wrapper{
+  position: absolute;
+  height: 35%;
+  width: 43%;
+  top: 50%;
+  left: 92%;
+  transform: translate(-92%, -50%);
+  padding-left: 20px;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  border-left: 1px dashed #1d322b;
+  border-top: 1px dashed #1d322b;
+}
+
+.text-wrapper p{
+  line-height: 200%;
+  font-size: 110%;
+}
+
+.app-main-wrapper{
+  position: absolute;
+  height: 7%;
+  width: 15%;
+  top: 83%;
+  left: 62.5%;
+  transform: translate(-62.5%, -83%);
+  background: #1d322b;
+  border-radius: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.app-main-wrapper a{
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: 900;
+  color: #FFFAFA;
+  margin-top: 2px;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  line-height: 260%;
+}
+
+#solutionsBtn{
+  padding: 0;
+  position: absolute;
+  height: 7%;
+  width: 15%;
+  top: 83%;
+  left: 82%;
+  transform: translate(-82%, -83%);
+}
+
+@media screen and (max-width: 700px) {
+  .content-main{
+    height: 170vh;
+  }
+  .h-wrapper{
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    width: 60%;
+    height: 10vh;
+    border: none;
+    border-bottom: 1px dashed #1d322b;
+  }
+  .h-wrapper a{
+    height: 55%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+  }
+  .picture-wrapper{
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    height: 40%;
+    width: 80%;
+  }
+  .text-wrapper{
+    height: 45vh;
+    width: 80%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border: none;
+  }
+  .app-main-wrapper{
+    width: 35%;
+    height: 4%;
+    top: 43%;
+    left: 25%;
+    transform: translate(-50%, -43%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+  #solutionsBtn{
+    width: 35%;
+    height: 4%;
+    top: 43%;
+    left: 75%;
+    transform: translate(-50%, -43%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+}
+
+/* End Homepage under */
+>>>>>>> Stashed changes
 
 /* Tips - container */
 
@@ -667,6 +819,48 @@ html{
     opacity: 0;
     transform: translateY(46px);
   }
+<<<<<<< Updated upstream
+=======
+}
+
+.section-scroll{
+  opacity: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  z-index: 1;
+}
+
+#buttonTop{
+  display: none;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  transform: translate(-95%, -90%);
+  z-index: 100;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  border: 4px solid #a96562;
+  border-radius: 80px;
+  font-size: 28px;
+}
+
+#buttonTop i{
+  color: #a96562;
+  animation-duration: 1.9s;
+  animation-iteration-count: infinite;
+  animation-name: arrowUp;
+}
+
+@keyframes arrowUp {
+  0%{
+    opacity: 0;
+    transform: translateY(35px);
+  }
+>>>>>>> Stashed changes
   100%{
     opacity: 1;
   }

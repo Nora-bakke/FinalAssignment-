@@ -13,6 +13,7 @@ function scrollDown(elementId){
 		clearTimeout(scrollNed);
 	}
 	window.scroll(0, grenseY);
+	window.scrollOne(0, grenseY);
 }
 
 /* ------- Back to top ------- */

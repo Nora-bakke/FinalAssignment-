@@ -63,39 +63,45 @@
           </div>
           </div>
         </div>
-        <a class="scroll" href="#content"></a>
+        <div class="scroll" id="scrollOne">
+          <a onclick="scrollDown('contentMain'); return false;" href="#" title="Scroll down" class="sectionScroll">!!!!<br>!!!!<br>!!!!</a>
+        </div>
       </div>
 
+      <button onclick="backTopFunc()" id="buttonTop" title="Back to top"><i class="fa fa-angle-double-up"></i></button>
+
+      <script type="text/javascript" src="scroll.js"></script>
+
       <div class="controller">
-        <div id="line1"></div>
-        <div id="line2"></div>
-        <div id="line3"></div>
-        <div id="line4"></div>
-        <div id="active"></div>
+        <div id="linje1" title="1. Slide"></div>
+        <div id="linje2" title="2. Slide"></div>
+        <div id="linje3" title="3. Slide"></div>
+        <div id="linje4" title="4. Slide"></div>
+        <div id="active" title="5. Slide"></div>
       </div>
 
       <script type="text/javascript">
 
         var slider = document.getElementById('slider');
         var active = document.getElementById('active');
-        var line1 = document.getElementById('line1');
-        var line2 = document.getElementById('line2');
-        var line3 = document.getElementById('line3');
-        var line4 = document.getElementById('line4');
+        var linje1 = document.getElementById('linje1');
+        var linje2 = document.getElementById('linje2');
+        var linje3 = document.getElementById('linje3');
+        var linje4 = document.getElementById('linje4');
 
-        line1.onclick = function(){
+        linje1.onclick = function(){
           slider.style.transform = 'translateX(0)';
           active.style.top = '0px';
         }
-        line2.onclick = function(){
+        linje2.onclick = function(){
           slider.style.transform = 'translateX(-25%)';
           active.style.top = '80px';
         }
-        line3.onclick = function(){
+        linje3.onclick = function(){
           slider.style.transform = 'translateX(-50%)';
           active.style.top = '160px';
         }
-        line4.onclick = function(){
+        linje4.onclick = function(){
           slider.style.transform = 'translateX(-75%)';
           active.style.top = '240px';
         }
@@ -108,14 +114,25 @@
 
     </div>
 
-    <section class="content-main" id="content">
-      <p>Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.
-      Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.
-      Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.
-      Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.
-      Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.
-      Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.
-      Add text here. Add text here. Add text here. Add text here. Add text here. Add text here.</p>
+    <section class="content-main" id="contentMain">
+      <div class="picture-wrapper">
+        <img src="img/extra1.jpg" alt="">
+      </div>
+      <div class="h-wrapper">
+        <a href="app.html" title="Learn more about our app">the n<span><i class="fa fa-ban" aria-hidden="true"></span></i>waste app</a>
+      </div>
+      <div class="text-wrapper">
+        <p>Our app is meant as a utility in your healthy and optamized day-to-day life.
+        Whether you're in the kitchen, prepping a meal, or you're out grocery shopping,
+        our app is there to assist you. We provide information that will help take the small steps
+        needed to achieve personalized goals.</p>
+      </div>
+      <div class="app-main-wrapper">
+        <a href="app.html" title="Learn More">Learn more</a>
+      </div>
+      <div class="app-main-wrapper" id="solutionsBtn">
+        <a href="tips.html" title="Our Solutions">Our Solutions</a>
+      </div>
     </section>
 
   </body>
