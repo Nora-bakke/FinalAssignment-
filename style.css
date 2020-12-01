@@ -12,7 +12,136 @@ body{
 }
 /* end body*/
 
-/*************** Nav 3.0 *************/
+/*************** Nav 4.0 *************/
+
+.navbar{
+  height: 90px;
+  width: 100%;
+  background-color: #1d322b;
+  position: fixed;
+  z-index: 10000;
+}
+
+.navbar > .navbar-head{
+  display: inline;
+}
+
+.navbar > .navbar-head > .navbar-logo{
+  display: inline-block;
+  padding: 20px 20px 20px 20px;
+}
+
+.navbar > .navbar-head > .navbar-logo > .logo{
+  text-decoration: none;
+  font-size: 35px;
+  color: #FFFAFA;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.navbar > .navbar-head > .navbar-logo > .logo > i{
+  color: #a96562;
+}
+
+.navbar > .navbar-button{
+  display: none;
+}
+
+.navbar > .links-navbar{
+  display: inline;
+}
+
+.navbar > .links-navbar > a{
+  display: inline-block;
+  padding: 25px 30px 25px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: /*#1d322b*/ #FFFAFA;
+  float: right;
+}
+
+.navbar > .links-navbar > a:hover{
+  background: transparent;
+  color: #ccb8a8;
+}
+
+.navbar > .links-navbar > a::before{
+  content: '';
+  display: block;
+  height: 2px;
+  background: #ccb8a8;
+  position: relative;
+  top: 25px;
+  width: 0%;
+  transition: all ease-in-out 200ms;
+}
+
+.navbar > .links-navbar > a:hover::before{
+  width: 100%;
+}
+
+.navbar #navbar-check{
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar > .navbar-button{
+    display: inline-block;
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    transform: translate(-95%, -50%);
+  }
+
+  .navbar > .navbar-button > label{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .navbar > .navbar-button > label:hover,
+  .navbar #navbar-check:checked ~ .navbar-button > label{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccb8a8;
+  }
+
+  .navbar > .navbar-button > label > span{
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #ccb8a8;
+  }
+  .navbar > .links-navbar{
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #1d322b;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 70px;
+    left: 0px;
+  }
+  .navbar > .links-navbar > a{
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    padding: 35px 50px 45px 30px;
+    text-align: center;
+    justify-content: center;
+  }
+  .navbar > #navbar-check:not(:checked) ~ .links-navbar{
+    height: 0px;
+  }
+  .navbar > #navbar-check:checked ~ .links-navbar{
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+/*************** End Nav 4.0 *************/
+
+/*************** Nav 3.0 *************
 a{
   color: #FFFAFA;
   letter-spacing: 5px;
@@ -23,7 +152,7 @@ a i{
 }
 /* End Nav 3.0 */
 
-/************** header ****************/
+/************** header ****************
 .header .fa:hover{
   transform: translate(0, 5px);
   transition: 0.3s;
@@ -185,7 +314,9 @@ a i{
   }
 
 }
-/* header */
+* header */
+
+
 
 /************** Top half *************************/
 .homepage-container{
@@ -205,7 +336,6 @@ a i{
   top: 60%;
   transform: translateY(-50%);
   overflow: hidden;
-  border: 1px solid blue;
 }
 
 #slider{
@@ -216,7 +346,6 @@ a i{
 .msg-col{
   width: 700px;
   height: 380px;
-  border: 1px solid red;
 }
 
 .msg-col h1{
@@ -438,6 +567,10 @@ a i{
   font-size: 200%;
   cursor: pointer;
   color: #1d322b;
+}
+
+.h-wrapper i{
+  color: #a96562;
 }
 
 .text-wrapper{
@@ -665,19 +798,7 @@ a i{
   text-align: left;
 
 }
-/*
-.tips-col a{
-  display: inline-block;
-  text-decoration: none;
-  color: #1d322b;
-  background: #FFFAFA;
-  font-size: 18px;
-  padding: 10px 35px;
-  border-radius: 30px;
-  margin-top: 25px;
-  font-weight: 900;
-}
-*/
+
 @media screen and (max-width: 75em) {
   .tips-col{
     width: 90%;
