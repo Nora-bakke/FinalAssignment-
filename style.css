@@ -1856,7 +1856,7 @@ input[type=submit]:hover {
     position: absolute;
     padding-top: 20px;
     height: 150vh;
-    width: 100%;
+    width: 120%;
     top: 8%;
     justify-content: flex-start;
     flex-direction: column;
@@ -1881,8 +1881,6 @@ input[type=submit]:hover {
     text-align: left;
     font-size: 15px;
     margin-bottom: 20px;
-
-
   }
 
   .contact-container form {
