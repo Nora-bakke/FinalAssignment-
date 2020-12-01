@@ -575,7 +575,8 @@ body{
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-    font-size: 90%;
+    font-size: 9
+    0%;
     padding-bottom: 50px;
   }
 }
@@ -640,7 +641,7 @@ body{
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-    font-size: 90%;
+    font-size: 60%;
     padding-bottom: 50px;
   }
 }
@@ -704,7 +705,7 @@ body{
     top: 45%;
     left: 75%;
     transform: translate(-50%, -43%);
-    font-size: 90%;
+    font-size: 30%;
     padding-bottom: 50px;
   }
 }
