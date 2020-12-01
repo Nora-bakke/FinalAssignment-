@@ -1382,6 +1382,25 @@ a i{
 .app-text h3{
   padding-bottom: 0px;
 }
+.download-button {
+  text-align: center;
+  font-style: italic;
+}
+
+.btn {
+  background-color: #4A235A;
+  border: none;
+  color: #f4f4f4;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 2px;
+}
+.btn:hover{
+  background-color: #8E44AD;
+  border: none;
+  color: white;
+}
 /* End - app */
 
 /****************** contact contact-form ***************/
@@ -1430,8 +1449,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #1d322b;
-  color: white;
+  background-color: #4A235A;
+  color: #f4f4f4;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -1439,8 +1458,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #ccb8a8;
-  color: #1d322b;
+  background-color: #8E44AD;
+  color: white;
 }
 /* End contact contact-form */
 
