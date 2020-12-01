@@ -1409,7 +1409,7 @@ a i{
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 120vh;
+  height: 180vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
@@ -1472,7 +1472,7 @@ input[type=submit]:hover {
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 400px;
+  height: 150vh;
   width: 100%;
   top: 5%;
   justify-content: flex-start;
@@ -1492,7 +1492,7 @@ input[type=submit]:hover {
 .contact-container h1 {
   color: #1d322b;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 .contact-container form {
   padding-top: 50px;
@@ -1535,7 +1535,7 @@ input[type=submit]:hover {
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 120vh;
+  height: 130vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
@@ -1618,12 +1618,13 @@ input[type=submit]:hover {
   padding-left: 10px;
   padding-right: 150px;
   float: left;
+  margin-bottom: 20px;
 }
 
 .contact-container h1 {
   color: #1d322b;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 .contact-container form {
   padding-top: 50px;
@@ -1671,26 +1672,31 @@ input[type=submit]:hover {
   top: 8%;
   justify-content: flex-start;
   flex-direction: column;
+  border: 1px solid red;
+
 
 }
 .contact-container h2 {
   color: #1d322b;
   text-align: left;
   line-height: 1.5;
-  padding-top: 50px;;
+  padding-top: 20px;
   padding-left: 3px;
   padding-right: 3px;
-  float: left;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 10px;
+  border: 1px solid purple;
 }
 
 .contact-container h1 {
   color: #1d322b;
   line-height: 1.5;
   text-align: left;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  margin-top: 20px;
+
 }
 
 .contact-container form {
