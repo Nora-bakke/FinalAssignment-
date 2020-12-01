@@ -186,7 +186,7 @@ a i{
 
 /* End Nav 3.0 */
 
-/* Top half *
+/* Top half */
 
 .homepage-container{
   width: 100%;
@@ -286,32 +286,29 @@ a i{
   font-size: 18px;
 }
 
-@media screen and (max-height: 700px), screen and (max-width: 995px) {
+@media screen and (max-height: 700px), screen and (max-width: 1000px) {
   .msg-container{
     position: absolute;
     width: 80%;
     height: 80%;
-    position: absolute;
     left: 20%;
     top: 70%;
     transform: translate(-20%, -70%);
     overflow: hidden;
   }
   .msg-col{
-    position: absolute;
-    height: 100%;
-    width: 400%;
+    height: 500px;
+    width: 398px;
     left: 0%;
     top: 0%;
     transform: translate(-0%, -0%);
   }
   .msg-col h1{
-    font-size: 40px;
+    font-size: 3.5em;
   }
   .msg-col p{
     height: 320px;
     width: 360px;
-
   }
   .noscript-main{
     top: 15%;
@@ -332,7 +329,7 @@ a i{
 
 /* End Top half */
 
-/* Scroll down *
+/* Scroll down */
 
 .scroll, .scroll:before{
   position: absolute;
@@ -617,7 +614,7 @@ a i{
   }
 }
 
-/* End Homepage under */
+* End Homepage under */
 
 /* Tips - container */
 
