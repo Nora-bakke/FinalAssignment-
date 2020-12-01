@@ -638,7 +638,7 @@ a i{
   top: 0%;
   left: 0%;
   transform: translate(-0%, -0%);
-  width: 80%;
+  width: 100%;
   height: 18%;
 }
 
@@ -656,6 +656,7 @@ a i{
   top: 100%;
   left: 0%;
   transform: translate(-0%, -100%);
+  border: 1px solid red;
 }
 
 .tips-col-p p{
@@ -663,7 +664,7 @@ a i{
   font-size: 18px;
   line-height: 32px;
   text-align: left;
-  word-spacing: 10px;
+
 }
 /*
 .tips-col a{
@@ -863,7 +864,7 @@ a i{
   margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1255px) {
   .wrapper-s{
     height: 150vh;
   }
@@ -944,7 +945,7 @@ a i{
   margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1255px) {
   .wrapper-v{
     height: 145vh;
     top: 250%;
@@ -1036,7 +1037,7 @@ a i{
   margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1255px) {
   .wrapper-l{
     height: 145vh;
     top: 395%;
@@ -1123,7 +1124,7 @@ a i{
   margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1255px) {
   .wrapper-sh{
     height: 140vh;
     top: 540%;
@@ -1210,7 +1211,7 @@ a i{
   margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1255px) {
   .wrapper-d{
     height: 155vh;
     top: 680%;
@@ -1299,7 +1300,7 @@ a i{
   margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1255px) {
   .wrapper-o{
     height: 140vh;
     top: 835%;
@@ -1518,6 +1519,166 @@ input[type=submit]:hover {
   justify-content: flex-start;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1255px) {
+  .about-container {
+    background-color: #9ebc99;
+    color: #1d322b;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: absolute;
+    padding-top: 5px;
+    height: 400vh;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .about-container h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+  }
+  .about-container h2, p, h3 {
+    line-height: 1.5;
+    padding-bottom: 20px;
+  }
+  .about-container h2 {
+    font-size: 20px;
+  }
+  .about-container h3 {
+    font-size: 16px;
+  }
+  .about-container p {
+    font-size: 14px;
+  }
+  .about-container ul {
+    list-style: none;
+  }
+  .about-container li a {
+    color: #1d322b;
+  }
+  .about-container li a:hover {
+    list-style: none;
+    color: #f4f4f4;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #9ebc99;
+    padding: 20px;
+    position: absolute;
+    padding-top: 5px;
+    height: 80vh;
+    width: 100%;
+    top: 10%;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .about-container {
+    background-color: #9ebc99;
+    color: #1d322b;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: absolute;
+    padding-top: 5px;
+    height: 300vh;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+.header ul a{
+  display: none;
+  padding: 20px;
+  text-decoration: none;
+  }
+
+  .about-container h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:499px) {
+  .about-container {
+    background-color: #9ebc99;
+    color: #1d322b;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: absolute;
+    padding-top: 5px;
+    height: 500vh;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .about-container h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .about-container h2, p, h3 {
+    line-height: 1.5;
+    padding-bottom: 20px;
+  }
+  .about-container h2 {
+    font-size: 15px;
+  }
+  .about-container h3 {
+    font-size: 12px;
+  }
+  .about-container p {
+    font-size: 10px;
+  }
+  .about-container ul {
+    list-style: none;
+  }
+  .about-container li a {
+    color: #1d322b;
+  }
+  .about-container li a:hover {
+    list-style: none;
+    color: #f4f4f4;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #9ebc99;
+    padding: 20px;
+    position: absolute;
+    padding-top: 5px;
+    height: 80vh;
+    width: 100%;
+    top: 10%;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-container {
+    background-color: #9ebc99;
+    color: #1d322b;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: absolute;
+    padding-top: 5px;
+    height: 650vh;
+    width: 400px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
 /* End about page */
 
 /**************** footer *****************/
