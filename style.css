@@ -10,9 +10,9 @@ body{
   background-color: #FFFAFA;
   min-height: 100vh;
 }
+/* end body*/
 
-/* Nav 3.0 */
-
+/*************** Nav 3.0 *************/
 a{
   color: #FFFAFA;
   letter-spacing: 5px;
@@ -21,7 +21,9 @@ a{
 a i{
   color: #a96562;
 }
+/* End Nav 3.0 */
 
+/************** header ****************/
 .header .fa:hover{
   transform: translate(0, 5px);
   transition: 0.3s;
@@ -183,11 +185,9 @@ a i{
   }
 
 }
+/* header */
 
-/* End Nav 3.0 */
-
-/* Top half */
-
+/************** Top half *************************/
 .homepage-container{
   width: 100%;
   height: 100vh;
@@ -326,11 +326,9 @@ a i{
     transition: 0.5s;
   }
 }
-
 /* End Top half */
 
-/* Scroll down */
-
+/******************** Scroll down *********************/
 .scroll, .scroll:before{
   position: absolute;
   left: 50%;
@@ -388,11 +386,9 @@ a i{
     display: none;
   }
 }
-
 /* End Scroll down */
 
-/* Homepage under *
-
+/**************** Homepage under ******************/
 .content-main{
   position: absolute;
   height: 100vh;
@@ -487,7 +483,9 @@ a i{
   word-spacing: 6px;
   line-height: 260%;
 }
+/* end homepage under */
 
+/********************** tips / solutions *******************************/
 #solutionsBtn{
   padding: 0;
   position: absolute;
@@ -613,11 +611,9 @@ a i{
     padding-bottom: 50px;
   }
 }
+/* end tips / solutions */
 
-* End Homepage under */
-
-/* Tips - container */
-
+/*************** Tips - container *******************/
 .tips-container{
   width: 100%;
   height: 100vh;
@@ -712,10 +708,9 @@ a i{
     font-size: 100%;
   }
 }
-
-
 /* End Tips - container */
 
+/*************** Scroll 2.0 down ********************/
 .section11{
   border: 1px solid red;
   position: absolute;
@@ -723,8 +718,6 @@ a i{
   left: 50%;
   transform: translate(-50%, -85%);
 }
-
-/* Scroll 2.0 down */
 
 .scroll-b, .scroll-b:before{
   position: absolute;
@@ -819,11 +812,9 @@ a i{
     display: none;
   }
 }
-
 /* End Scroll 2.0 down */
 
-/* Smoothie - tips */
-
+/******************* Smoothie - tips ***************/
 .wrapper-s{
   position: absolute;
   height: 80vh;
@@ -901,12 +892,9 @@ a i{
     transform: translate(-50%, -80%);
   }
 }
-
-
 /* End Smoothie - tips */
 
-/* Vacuum - tips */
-
+/************ Vacuum - tips ******************/
 .wrapper-v{
   position: absolute;
   height: 80vh;
@@ -997,11 +985,9 @@ a i{
     transform: translate(-50%, -80%);
   }
 }
-
 /* End Vacuum - tips */
 
-/* Label - tips */
-
+/************** Label - tips *****************/
 .wrapper-l{
   position: absolute;
   height: 80vh;
@@ -1085,12 +1071,9 @@ a i{
     transform: translate(-50%, -80%);
   }
 }
-
-
 /* End Label - tips */
 
-/* Shopping - tips */
-
+/**************** Shopping - tips ******************/
 .wrapper-sh{
   position: absolute;
   height: 80vh;
@@ -1176,11 +1159,9 @@ a i{
     transform: translate(-50%, -80%);
   }
 }
-
 /* End Shopping- tips */
 
-/* Drying - tips */
-
+/******************** Drying - tips **********************/
 .wrapper-d{
   position: absolute;
   height: 80vh;
@@ -1267,12 +1248,9 @@ a i{
     transform: translate(-50%, -85%);
   }
 }
-
-
 /* End Drying - tips */
 
-/* Organize - tips */
-
+/******************* Organize - tips ********************/
 .wrapper-o{
   position: absolute;
   height: 80vh;
@@ -1359,11 +1337,11 @@ a i{
     transform: translate(-50%, -86%);
   }
 }
-/* End Organize - tips */
+/* End - Organize - tips */
 
 
 
-/*app*/
+/******************* app ********************/
 .app-container {
   background-color: #9ebc99;
   padding: 20px;
@@ -1404,8 +1382,9 @@ a i{
 .app-text h3{
   padding-bottom: 0px;
 }
+/* End - app */
 
-/* contact contact-form */
+/****************** contact contact-form ***************/
 .contact-container {
   background-color: #9ebc99;
   padding: 20px;
@@ -1436,7 +1415,9 @@ a i{
   padding-right: 300px;
   font-size: 14px;
 }
-/* contact contact-form */
+/* End - contact contact-form */
+
+/********************** contact contact-form *****************/
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -1461,8 +1442,9 @@ input[type=submit]:hover {
   background-color: #ccb8a8;
   color: #1d322b;
 }
+/* End contact contact-form */
 
-/* about page */
+/**************************** about page ***********************/
 .about-container {
   background-color: #9ebc99;
   color: #1d322b;
@@ -1516,8 +1498,9 @@ input[type=submit]:hover {
   justify-content: flex-start;
   flex-direction: column;
 }
+/* End about page */
 
-/* footer */
+/**************** footer *****************/
 .content-footer {
   position: absolute;
   padding-top: 5px;
@@ -1527,3 +1510,4 @@ input[type=submit]:hover {
   flex-direction: column;
   text-align: center;
 }
+/* End footer */
