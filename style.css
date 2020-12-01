@@ -1432,7 +1432,7 @@ a i{
 }
 .contact-container form {
   padding-top: 50px;
-  padding-left: 350px;
+  padding-left: 300px;
   padding-right: 300px;
   font-size: 14px;
 }
@@ -1466,13 +1466,12 @@ input[type=submit]:hover {
 .about-container {
   background-color: #9ebc99;
   color: #1d322b;
-  padding-left: 150px;
-  padding-right: 300px;
+  padding-left: 250px;
+  padding-right: 250px;
   position: absolute;
   padding-top: 5px;
-  height: 200vh;
+  height: 225vh;
   width: 100%;
-  top: 10%;
   justify-content: flex-start;
   flex-direction: column;
 }
