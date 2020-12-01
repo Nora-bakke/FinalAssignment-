@@ -1347,7 +1347,7 @@ a i{
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 130vh;
+  height: 160vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
@@ -1452,7 +1452,7 @@ input[type=submit]:hover {
   padding-right: 250px;
   position: absolute;
   padding-top: 5px;
-  height: 225vh;
+  height: 265vh;
   width: 100%;
   justify-content: flex-start;
   flex-direction: column;
