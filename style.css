@@ -248,33 +248,23 @@ body{
     width: 80%;
     height: 80%;
     left: 20%;
-    top: 80%;
-    transform: translate(-20%, -80%);
+    top: 70%;
+    transform: translate(-20%, -70%);
     overflow: hidden;
-    border: 1px solid red;
   }
   .msg-col{
-    height: 90%;
-    width: 100%;
+    height: 500px;
+    width: 398px;
     left: 0%;
     top: 0%;
     transform: translate(-0%, -0%);
-    border: 1px solid blue;
-    word-wrap: break-word;
   }
   .msg-col h1{
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
   .msg-col p{
-    height: 100%;
-    width: 18.5em;
-    font-size: 1.1em;
-    border: 1px solid white;
-    word-wrap: break-word;
-    line-height: 25px;
-  }
-  .controller{
-    left: 90%;
+    height: 320px;
+    width: 360px;
   }
   .noscript-main{
     top: 15%;
@@ -292,46 +282,6 @@ body{
     transition: 0.5s;
   }
 }
-
-@media screen and (max-width: 340px), screen and (max-height: 570px),
-screen and (min-width: 330px), screen and (min-height: 560px){
-  .msg-col{
-    height: 100%;
-    width: 100%;
-    left: 0%;
-    top: 0%;
-    transform: translate(-0%, -0%);
-    border: 1px solid blue;
-    word-wrap: break-word;
-  }
-  .msg-col p{
-    height: 100%;
-    width: 15.8em;
-    font-size: 1.0em;
-    border: 1px solid white;
-    word-wrap: break-word;
-  }
-}
-
-@media screen and (max-width: 360px), screen and (max-height: 640px){
-  .msg-col{
-    height: 100%;
-    width: 100%;
-    left: 0%;
-    top: 0%;
-    transform: translate(-0%, -0%);
-    border: 1px solid blue;
-    word-wrap: break-word;
-  }
-  .msg-col p{
-    height: 100%;
-    width: 17.8em;
-    font-size: 1.0em;
-    border: 1px solid white;
-    word-wrap: break-word;
-  }
-}
-
 /* End Top half */
 
 /******************** Scroll down *********************/
@@ -535,14 +485,14 @@ screen and (min-width: 330px), screen and (min-height: 560px){
   }
 
   .header ul a::before{
-    content: '';
-    display: block;
-    height: 2px;
-    background: #ccb8a8;
-    position: relative;
-    top: 25px;
-    width: 0%;
-    transition: all ease-in-out 200ms;
+  content: '';
+  display: block;
+  height: 2px;
+  background: #ccb8a8;
+  position: relative;
+  top: 25px;
+  width: 0%;
+  transition: all ease-in-out 200ms;
   }
 
   .header ul a:hover::before{
@@ -577,6 +527,7 @@ screen and (min-width: 330px), screen and (min-height: 560px){
     width: 60%;
     height: 10vh;
     border: none;
+    border-bottom: 1px dashed #1d322b;
   }
   .h-wrapper a{
     height: 55%;
@@ -615,9 +566,8 @@ screen and (min-width: 330px), screen and (min-height: 560px){
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
-    font-size: 80%;
+    font-size: 90%;
     padding-bottom: 50px;
-    padding-top: 10px;
   }
   #solutionsBtn{
     width: 35%;
@@ -625,77 +575,13 @@ screen and (min-width: 330px), screen and (min-height: 560px){
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-<<<<<<< Updated upstream
     font-size: 90%;
-=======
-    font-size: 80%;
->>>>>>> Stashed changes
     padding-bottom: 50px;
-    padding-top: 10px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .h-wrapper{
-    top: 6%;
-    left: 50%;
-    transform: translate(-50%, -6%);
-    width: 70%;
-    height: 10%;
-    border-left: 1px dashed #1d322b;
-  }
-  .picture-wrapper{
-<<<<<<< Updated upstream
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -85%);
-    height: 40%;
-    width: 80%;
-=======
-    top: 40%;
-    left: -70%;
-    transform: translate(70%, -40%);
->>>>>>> Stashed changes
-  }
-  .text-wrapper{
-    height: 25%;
-    width: 45%;
-    top: 40%;
-    left: 80%;
-    transform: translate(-80%, -40%);
-    border-left: 1px dashed #1d322b;
-    border-top: 1px dashed #1d322b;
-    font-size: 0.8em;
-  }
-  .app-main-wrapper{
-    width: 25%;
-    height: 4%;
-    top: 60%;
-    left: 80%;
-    transform: translate(-80%, -60%);
-    font-size: 70%;
-    padding-bottom: 40px;
-  }
-  #solutionsBtn{
-    width: 25%;
-    height: 4%;
-<<<<<<< Updated upstream
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    font-size: 90%;
-    padding-bottom: 50px;
-=======
-    top: 70%;
-    left: 80%;
-    transform: translate(-80%, -70%);
-    font-size: 70%;
-    padding-bottom: 40px;
->>>>>>> Stashed changes
-  }
-}
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 475px) {
   .content-main{
     height: 170vh;
   }
@@ -706,6 +592,7 @@ screen and (min-width: 330px), screen and (min-height: 560px){
     width: 60%;
     height: 15vh;
     border: none;
+    border-bottom: 1px dashed #1d322b;
   }
   .h-wrapper a{
     height: 55%;
@@ -737,32 +624,236 @@ screen and (min-width: 330px), screen and (min-height: 560px){
     left: 50%;
     transform: translate(-50%, -20%);
     border: none;
-    font-size: 0.8em;
   }
   .app-main-wrapper{
     width: 35%;
     height: 4%;
-    top: 45%;
-    left: 20%;
-    transform: translate(-20%, -45%);
-    font-size: 70%;
-    padding-bottom: 40px;
+    top: 46%;
+    left: 25%;
+    transform: translate(-50%, -46%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+  #solutionsBtn{
+    width: 35%;
+    height: 4%;
+    top: 46%;
+    left: 75%;
+    transform: translate(-50%, -46%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-main{
+    height: 170vh;
+  }
+  .h-wrapper{
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    width: 60%;
+    height: 15vh;
+    border: none;
+    border-bottom: 1px dashed #1d322b;
+  }
+  .h-wrapper a{
+    height: 55%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+  }
+  .picture-wrapper{
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    height: 40%;
+    width: 80%;
+  }
+
+  .picture-wrapper img{
+    position: absolute;
+    height: 511px;
+    width: 236px;
+    margin-left: 10px;
+  }
+
+  .text-wrapper{
+    height: 45vh;
+    width: 80%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border: none;
+  }
+  .app-main-wrapper{
+    width: 35%;
+    height: 4%;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -60%);
+    font-size: 90%;
+    padding-bottom: 50px;
   }
   #solutionsBtn{
     width: 35%;
     height: 4%;
     top: 45%;
-<<<<<<< Updated upstream
     left: 75%;
     transform: translate(-50%, -43%);
     font-size: 90%;
     padding-bottom: 50px;
-=======
-    left: 80%;
-    transform: translate(-80%, -45%);
-    font-size: 70%;
-    padding-bottom: 40px;
->>>>>>> Stashed changes
+  }
+
+  .msg-col{
+    width: 700px;
+    height: 380px;
+  }
+
+  .msg-col h1{
+    color: #FFFAFA;
+    font-size: 80px;
+    font-weight: 100;
+    margin: 10px 0;
+  }
+
+  .msg-col p{
+    color: #FFFAFA;
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .msg-col a{
+    display: inline-block;
+    text-decoration: none;
+    color: #1d322b;
+    background: #FFFAFA;
+    font-size: 18px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-weight: 900;
+  }
+
+  .controller{
+    width: 1px;
+    height: 320px;
+    display: block;
+    background: #FFFAFA;
+    position: absolute;
+    top: 30%;
+    right: 50px;
+    transform: translateY(-50%;);
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content-main{
+    height: 170vh;
+  }
+  .h-wrapper{
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    width: 60%;
+    height: 15vh;
+    border: none;
+    border-bottom: 1px dashed #1d322b;
+  }
+  .h-wrapper a{
+    height: 55%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+  }
+  .picture-wrapper{
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    height: 40%;
+    width: 80%;
+  }
+
+  .picture-wrapper img{
+    position: absolute;
+    height: auto;
+    width: 180px;
+    margin-left: 10px;
+  }
+
+  .text-wrapper{
+    height: 45vh;
+    width: 80%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border: none;
+    font-size: 14px;
+  }
+  .app-main-wrapper{
+    width: 35%;
+    height: 1%;
+    top: 47%;
+    left: 25%;
+    transform: translate(-50%, -47%);
+    font-size: 10px;
+    padding-bottom: 25px;
+  }
+  #solutionsBtn{
+    width: 35%;
+    height: 1%;
+    top: 47%;
+    left: 75%;
+    transform: translate(-50%, -47%);
+    font-size: 10px;
+    padding-bottom: 25px;
+  }
+  .msg-col{
+    width: 700px;
+    height: 380px;
+  }
+
+  .msg-col h1{
+    color: #FFFAFA;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px 0;
+  }
+
+  .msg-col p{
+    color: #FFFAFA;
+    font-size: 12px;
+    line-height: 25px;
+    width: 250px;
+  }
+
+  .msg-col a{
+    display: inline-block;
+    text-decoration: none;
+    color: #1d322b;
+    background: #FFFAFA;
+    font-size: 18px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-weight: 900;
+  }
+  .controller{
+    width: 1px;
+    height: 320px;
+    display: block;
+    background: #FFFAFA;
+    position: absolute;
+    top: 30%;
+    right: 15px;
+    transform: translateY(-50%;);
+    border-radius: 5px;
   }
 }
 
@@ -1573,9 +1664,10 @@ margin-bottom: 20px;
     padding: 20px;
     position: absolute;
     padding-top: 5px;
-    height: 200vh;
+    height: 350vh;
     width: 100%;
-    top: 10%;
+    min-width: 1200px;
+    top: 5%;
     justify-content: flex-start;
     flex-direction: column;
     line-height: 1.5;
@@ -1588,7 +1680,7 @@ margin-bottom: 20px;
     margin-bottom: 20px;
   }
   .app-container p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .app-container ul {
@@ -1620,10 +1712,12 @@ margin-bottom: 20px;
     width: 1050px;
     margin-top: 20px;
     margin-left: 10px;
+
   }
 
   .app-text p{
     margin-bottom:10px;
+
   }
 
   .app-text h3{
@@ -1655,9 +1749,9 @@ margin-bottom: 20px;
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 200vh;
+  height: 350vh;
   width: 100%;
-  top: 10%;
+  top: 5%;
   justify-content: flex-start;
   flex-direction: column;
   line-height: 1.5;
@@ -1713,16 +1807,106 @@ margin-bottom: 20px;
   }
 }
 
+  @media screen and (max-width: 500px){
+    .app-container {
+      background-color: #9ebc99;
+      padding: 20px;
+      position: absolute;
+      padding-top: 5px;
+      height: 700vh;
+      width: 100%;
+      top: 5%;
+      justify-content: flex-start;
+      flex-direction: column;
+      line-height: 1.5;
+    }
+
+    .app-container h1 {
+      color: #1d322b;
+      text-align: center;
+      margin-top: 70px;
+      font-size: 70px;
+      margin-bottom: 35px;
+    }
+    .app-container p {
+      font-size: 35px;
+
+    }
+
+    .app-container ul {
+    float: left;
+    list-style: none;
+    width: 100%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    }
+
+    .app-container li {
+      text-decoration: none;
+      width: 25%;
+      display: inline-block;
+    }
+
+    .app-container img{
+      width: 100%;
+      border-radius: 3px;
+    }
+
+    .app-img{
+      margin-left: 10px;
+      border-radius: 2px;
+    }
+
+    .app-text {
+      width: 1050px;
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 100%;
+
+    }
+
+    .app-text p{
+      margin-bottom:10px;
+      margin-right: 5px;
+      width: 100%;
+    }
+
+    .app-text h4{
+      padding-bottom: 0px;
+      font-size: 40px;
+    }
+    .download-button {
+      text-align: center;
+      font-style: italic;
+    }
+
+    .btn {
+      background-color: #4A235A;
+      border: none;
+      color: #f4f4f4;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 50px;
+      border-radius: 2px;
+    }
+    .btn:hover{
+      background-color: #8E44AD;
+      border: none;
+      color: white;
+      }
+    }
+
 /* End - app */
 
 /****************** contact contact-form ***************/
 .contact-container {
   background-color: #9ebc99;
+  padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 200vh;
+  height: 180vh;
   width: 100%;
-  top: 5%;
+  top: 10%;
   justify-content: flex-start;
   flex-direction: column;
 }
@@ -1783,11 +1967,12 @@ input[type=submit]:hover {
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 180vh;
+  height: 150vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
   flex-direction: column;
+
 }
 .contact-container h2 {
   color: #1d322b;
@@ -1796,7 +1981,9 @@ input[type=submit]:hover {
   padding-top: 50px;;
   padding-left: 10px;
   padding-right: 150px;
+
 }
+
 .contact-container h1 {
   color: #1d322b;
   line-height: 1.5;
@@ -1808,6 +1995,7 @@ input[type=submit]:hover {
   padding-right: 300px;
   font-size: 14px;
 }
+
 input[type=text], select, textarea {
   width: 100%;
   min-width: 400px;
@@ -1819,6 +2007,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
 input[type=submit] {
   background-color: #4A235A;
   color: #f4f4f4;
@@ -1827,11 +2016,13 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+
 input[type=submit]:hover {
   background-color: #8E44AD;
   color: white;
   }
 }
+
 
 @media screen and (max-width: 900px) {
 .contact-container {
@@ -1839,11 +2030,12 @@ input[type=submit]:hover {
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 150vh;
+  height: 130vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
   flex-direction: column;
+
 }
 .contact-container h2 {
   color: #1d322b;
@@ -1902,13 +2094,15 @@ input[type=submit]:hover {
 @media screen and (max-width: 770px) {
 .contact-container {
   background-color: #9ebc99;
+  padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 150vh;
+  height: 120vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
   flex-direction: column;
+
 }
 .contact-container h2 {
   color: #1d322b;
@@ -1966,36 +2160,41 @@ input[type=submit]:hover {
   padding: 0px;
   position: absolute;
   padding-top: 20px;
-  height: 120vh;
+  height: 140vh;
   width: 100%;
-  top: 10%;
+  top: 8%;
   justify-content: flex-start;
   flex-direction: column;
+
+
+
 }
 .contact-container h2 {
   color: #1d322b;
   text-align: left;
-  line-height: 1;
+  line-height: 1.5;
   padding-top: 20px;
   padding-left: 3px;
   padding-right: 3px;
-  font-size: 13px;
-  margin-bottom: 8px;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .contact-container h1 {
   color: #1d322b;
-  line-height: 1;
+  line-height: 1.5;
   text-align: left;
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+
+
 }
 
 .contact-container form {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 3px;
   padding-right: 3px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 input[type=text], select, textarea {
@@ -2023,82 +2222,90 @@ input[type=submit]:hover {
   background-color: #8E44AD;
   color: white;
   }
-}
 
-@media screen and (max-width: 320px) {
-    .contact-container {
-      background-color: #9ebc99;
-      position: absolute;
-      padding-top: 20px;
-      height: 150vh;
-      width: 125%;
-      top: 10%;
-      justify-content: flex-start;
-      flex-direction: column;
-    }
-    .contact-container h2 {
-      color: #1d322b;
-      text-align: left;
-      line-height: 1;
-      padding-top: 20px;
-      padding-left: 3px;
-      padding-right: 3px;
-      font-size: 13px;
-      margin-bottom: 8px;
-    }
+  @media screen and (max-width: 320px) {
+  .contact-container {
+    background-color: #9ebc99;
+    padding: 0px;
+    position: absolute;
+    padding-top: 20px;
+    height: 150vh;
+    width: 120%;
+    top: 8%;
+    justify-content: flex-start;
+    flex-direction: column;
 
-    .contact-container h1 {
-      color: #1d322b;
-      line-height: 1;
-      text-align: left;
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
 
-    .contact-container form {
-      padding-top: 20px;
-      padding-left: 3px;
-      padding-right: 3px;
-      font-size: 12px;
-    }
 
-    input[type=text], select, textarea {
-      width: 100%;
-      min-width: 250px;
-      padding: 12px;
-      border: 1px solid #1d322b;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-    }
-
-    input[type=submit] {
-      background-color: #4A235A;
-      color: #f4f4f4;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    input[type=submit]:hover {
-      background-color: #8E44AD;
-      color: white;
-      }
   }
+  .contact-container h2 {
+    color: #1d322b;
+    text-align: left;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .contact-container h1 {
+    color: #1d322b;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .contact-container form {
+    padding-top: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 14px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    min-width: 250px;
+    padding: 12px;
+    border: 1px solid #1d322b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4A235A;
+    color: #f4f4f4;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #8E44AD;
+    color: white;
+    }
+  }
+
+}
 
 
 /**************************** about page ***********************/
 .about-container {
   background-color: #9ebc99;
   color: #1d322b;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: absolute;
   padding-top: 5px;
-  height: 200vh;
+  height: 265vh;
   width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 .about-container h1 {
   padding-top: 100px;
@@ -2185,6 +2392,19 @@ input[type=submit]:hover {
     list-style: none;
     color: #f4f4f4;
   }
+
+  .container {
+    border-radius: 5px;
+    background-color: #9ebc99;
+    padding: 20px;
+    position: absolute;
+    padding-top: 5px;
+    height: 80vh;
+    width: 100%;
+    top: 10%;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -2195,12 +2415,13 @@ input[type=submit]:hover {
     padding-right: 70px;
     position: absolute;
     padding-top: 5px;
-    height: 350vh;
+    height: 300vh;
     width: 100%;
     justify-content: flex-start;
     flex-direction: column;
   }
-.header ul a {
+
+.header ul a{
   display: none;
   padding: 20px;
   text-decoration: none;
@@ -2222,11 +2443,13 @@ input[type=submit]:hover {
     padding-right: 70px;
     position: absolute;
     padding-top: 5px;
-    height: 350vh;
+    height: 500vh;
     width: 100%;
     justify-content: flex-start;
     flex-direction: column;
   }
+
+  /**/
 
   .about-container h1 {
     padding-top: 100px;
