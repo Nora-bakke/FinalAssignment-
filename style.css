@@ -1474,7 +1474,7 @@ input[type=submit]:hover {
   padding-top: 5px;
   height: 150vh;
   width: 100%;
-  top: 5%;
+  top: 10%;
   justify-content: flex-start;
   flex-direction: column;
 
@@ -1486,7 +1486,7 @@ input[type=submit]:hover {
   padding-top: 50px;;
   padding-left: 10px;
   padding-right: 150px;
-  float: left;
+
 }
 
 .contact-container h1 {
@@ -1548,8 +1548,7 @@ input[type=submit]:hover {
   line-height: 1.5;
   padding-top: 50px;;
   padding-left: 10px;
-  padding-right: 10px;
-  float: left;
+  padding-right: 100px;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -1605,7 +1604,7 @@ input[type=submit]:hover {
   padding-top: 5px;
   height: 120vh;
   width: 100%;
-  top: 5%;
+  top: 10%;
   justify-content: flex-start;
   flex-direction: column;
 
@@ -1614,11 +1613,10 @@ input[type=submit]:hover {
   color: #1d322b;
   text-align: left;
   line-height: 1.5;
-  padding-top: 50px;;
+  padding-top: 50px;
   padding-left: 10px;
   padding-right: 150px;
-  float: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact-container h1 {
@@ -1627,7 +1625,7 @@ input[type=submit]:hover {
   text-align: left;
 }
 .contact-container form {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 10px;
   padding-right: 300px;
   font-size: 14px;
@@ -1666,13 +1664,13 @@ input[type=submit]:hover {
   background-color: #9ebc99;
   padding: 0px;
   position: absolute;
-  padding-top: 5px;
+  padding-top: 20px;
   height: 140vh;
   width: 100%;
   top: 8%;
   justify-content: flex-start;
   flex-direction: column;
-  border: 1px solid red;
+
 
 
 }
@@ -1685,7 +1683,6 @@ input[type=submit]:hover {
   padding-right: 3px;
   font-size: 15px;
   margin-bottom: 10px;
-  border: 1px solid purple;
 }
 
 .contact-container h1 {
@@ -1694,13 +1691,12 @@ input[type=submit]:hover {
   text-align: left;
   font-size: 15px;
   margin-bottom: 20px;
-  border: 1px solid black;
-  margin-top: 20px;
+
 
 }
 
 .contact-container form {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 3px;
   padding-right: 3px;
   font-size: 14px;
@@ -1731,6 +1727,77 @@ input[type=submit]:hover {
   background-color: #8E44AD;
   color: white;
   }
+
+  @media screen and (max-width: 320px) {
+  .contact-container {
+    background-color: #9ebc99;
+    padding: 0px;
+    position: absolute;
+    padding-top: 20px;
+    height: 150vh;
+    width: 100%;
+    top: 8%;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+
+  }
+  .contact-container h2 {
+    color: #1d322b;
+    text-align: left;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .contact-container h1 {
+    color: #1d322b;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+
+  }
+
+  .contact-container form {
+    padding-top: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 14px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    min-width: 250px;
+    padding: 12px;
+    border: 1px solid #1d322b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4A235A;
+    color: #f4f4f4;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #8E44AD;
+    color: white;
+    }
+  }
+
 }
 
 
