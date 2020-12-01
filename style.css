@@ -29,7 +29,6 @@ a i{
 
 .header{
   background-color: #1d322b;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   z-index: 10000;
@@ -56,6 +55,7 @@ a i{
   color: #1d322b;
   font-size: 16px;
   font-weight: 900;
+  transition: 0.5s ease;
 }
 
 .header .logo{
@@ -69,10 +69,8 @@ a i{
 .header .menu{
   clear: both;
   max-height: 0;
-  transition: max-height 0.4s ease-out;/*
-  transition: min-height 0.4s ease-out;
+  transition: max-height 0.8s ease-out;
   line-height: 60px;
-  min-height: 0;*/
 }
 
 .header .menu-icon{
@@ -119,7 +117,7 @@ a i{
 }
 
 .header .menu-btn:checked ~ .menu{
-  min-height: 240px;
+  max-height: 100vh;
 }
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon{
@@ -188,8 +186,7 @@ a i{
 
 /* End Nav 3.0 */
 
-
-/* Top half */
+/* Top half *
 
 .homepage-container{
   width: 100%;
@@ -335,7 +332,7 @@ a i{
 
 /* End Top half */
 
-/* Scroll down */
+/* Scroll down *
 
 .scroll, .scroll:before{
   position: absolute;
@@ -397,7 +394,7 @@ a i{
 
 /* End Scroll down */
 
-/* Homepage under */
+/* Homepage under *
 
 .content-main{
   position: absolute;
@@ -450,171 +447,6 @@ a i{
   color: #1d322b;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of cf500a9... everything back to normal
-<<<<<<< Updated upstream
-/*TIPS*/
-/*DRYING*/
-
-.drying-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.drying-img {
-  width: 600px;
-  height: 400px;
-}
-
-.drying-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.drying-text h2{
-  padding-left: 170px;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.drying-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-
-/*LABEL*/
-
-.label-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.label-img {
-  width: 600px;
-  height: 400px;
-}
-
-.label-text{
-  margin-left: 50px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.label-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.label-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-
-/* ORGANIZING*/
-
-.organizing-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.organizing-img {
-  width: 600px;
-  height: 400px;
-}
-
-.organizing-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.organizing-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.organizing-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-/*shoppinglist*/
-
-.shoppinglist-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.shoppinglist-img {
-  width: 600px;
-  height: 400px;
-}
-
-.shoppinglist-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.shoppinglist-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.shoppinglist-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-
-/*vacuum*/
-
-.vacuum-container{
-  display: flex;
-  margin-top:130px;
-  margin-left: 70px;
-  width: 80%;
-}
-
-.vacuum-img {
-  width: 600px;
-  height: 400px;
-}
-
-.vacuum-text{
-  margin-left: 70px;
-  padding-top: 60px;
-  color: #4B4A4A;
-}
-.vacuum-text h2{
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.vacuum-text p{
-  font-weight: bold;
-  margin-top:25px;
-  font-size: 22px;
-}
-=======
-<<<<<<< HEAD
->>>>>>> parent of cf500a9... everything back to normal
-=======
->>>>>>> parent of cf500a9... everything back to normal
 .text-wrapper{
   position: absolute;
   height: 35%;
@@ -786,7 +618,6 @@ a i{
 }
 
 /* End Homepage under */
->>>>>>> Stashed changes
 
 /* Tips - container */
 
@@ -896,14 +727,7 @@ a i{
   transform: translate(-50%, -85%);
 }
 
-/* Scroll 2.0 down *
-<<<<<<< HEAD
-=======
-
-html{
-  scroll-behavior: smooth;
-}
->>>>>>> parent of cf500a9... everything back to normal
+/* Scroll 2.0 down */
 
 .scroll-b, .scroll-b:before{
   position: absolute;
@@ -943,19 +767,9 @@ html{
     opacity: 0;
     transform: translateY(46px);
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
   100%{
     opacity: 1;
   }
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of cf500a9... everything back to normal
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of cf500a9... everything back to normal
 }
 
 .section-scroll{
@@ -995,7 +809,6 @@ html{
     opacity: 0;
     transform: translateY(35px);
   }
->>>>>>> Stashed changes
   100%{
     opacity: 1;
   }
@@ -1010,7 +823,7 @@ html{
   }
 }
 
-* End Scroll 2.0 down */
+/* End Scroll 2.0 down */
 
 /* Smoothie - tips */
 
