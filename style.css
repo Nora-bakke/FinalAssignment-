@@ -538,9 +538,9 @@ body{
     font-size: 200%;
   }
   .picture-wrapper{
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -85%);
+    top: 95%;
+    left: 0%;
+    transform: translate(-0%, -95%);
     height: 40%;
     width: 80%;
   }
@@ -555,18 +555,18 @@ body{
   .app-main-wrapper{
     width: 35%;
     height: 4%;
-    top: 43%;
+    top: 50%;
     left: 25%;
-    transform: translate(-50%, -43%);
+    transform: translate(-50%, -50%);
     font-size: 90%;
     padding-bottom: 50px;
   }
   #solutionsBtn{
     width: 35%;
     height: 4%;
-    top: 43%;
+    top: 50%;
     left: 75%;
-    transform: translate(-50%, -43%);
+    transform: translate(-50%, -50%);
     font-size: 90%;
     padding-bottom: 50px;
   }
