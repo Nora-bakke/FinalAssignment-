@@ -459,7 +459,7 @@ body{
 @media screen and (max-width: 1100px) {
   .picture-wrapper{
     top: 50%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -85%);
     height: 40%;
     width: 80%;
@@ -509,7 +509,7 @@ body{
 
   .picture-wrapper{
     top: 50%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -85%);
     height: 40%;
     width: 80%;
@@ -539,8 +539,8 @@ body{
   }
   .picture-wrapper{
     top: 95%;
-    left: 0%;
-    transform: translate(-0%, -95%);
+    left: 50%;
+    transform: translate(-50%, -95%);
     height: 40%;
     width: 80%;
   }
@@ -603,9 +603,9 @@ body{
     font-size: 200%;
   }
   .picture-wrapper{
-    top: 85%;
+    top: 90%;
     left: 50%;
-    transform: translate(-50%, -85%);
+    transform: translate(-50%, -90%);
     height: 40%;
     width: 80%;
   }
