@@ -248,23 +248,33 @@ body{
     width: 80%;
     height: 80%;
     left: 20%;
-    top: 70%;
-    transform: translate(-20%, -70%);
+    top: 80%;
+    transform: translate(-20%, -80%);
     overflow: hidden;
+    border: 1px solid red;
   }
   .msg-col{
-    height: 500px;
-    width: 398px;
+    height: 90%;
+    width: 100%;
     left: 0%;
     top: 0%;
     transform: translate(-0%, -0%);
+    border: 1px solid blue;
+    word-wrap: break-word;
   }
   .msg-col h1{
-    font-size: 3.5em;
+    font-size: 2.5em;
   }
   .msg-col p{
-    height: 320px;
-    width: 360px;
+    height: 100%;
+    width: 18.5em;
+    font-size: 1.1em;
+    border: 1px solid white;
+    word-wrap: break-word;
+    line-height: 25px;
+  }
+  .controller{
+    left: 90%;
   }
   .noscript-main{
     top: 15%;
@@ -282,6 +292,46 @@ body{
     transition: 0.5s;
   }
 }
+
+@media screen and (max-width: 340px), screen and (max-height: 570px),
+screen and (min-width: 330px), screen and (min-height: 560px){
+  .msg-col{
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    transform: translate(-0%, -0%);
+    border: 1px solid blue;
+    word-wrap: break-word;
+  }
+  .msg-col p{
+    height: 100%;
+    width: 15.8em;
+    font-size: 1.0em;
+    border: 1px solid white;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 360px), screen and (max-height: 640px){
+  .msg-col{
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    transform: translate(-0%, -0%);
+    border: 1px solid blue;
+    word-wrap: break-word;
+  }
+  .msg-col p{
+    height: 100%;
+    width: 17.8em;
+    font-size: 1.0em;
+    border: 1px solid white;
+    word-wrap: break-word;
+  }
+}
+
 /* End Top half */
 
 /******************** Scroll down *********************/
@@ -485,14 +535,14 @@ body{
   }
 
   .header ul a::before{
-  content: '';
-  display: block;
-  height: 2px;
-  background: #ccb8a8;
-  position: relative;
-  top: 25px;
-  width: 0%;
-  transition: all ease-in-out 200ms;
+    content: '';
+    display: block;
+    height: 2px;
+    background: #ccb8a8;
+    position: relative;
+    top: 25px;
+    width: 0%;
+    transition: all ease-in-out 200ms;
   }
 
   .header ul a:hover::before{
@@ -527,7 +577,6 @@ body{
     width: 60%;
     height: 10vh;
     border: none;
-    border-bottom: 1px dashed #1d322b;
   }
   .h-wrapper a{
     height: 55%;
@@ -566,8 +615,9 @@ body{
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
-    font-size: 90%;
+    font-size: 80%;
     padding-bottom: 50px;
+    padding-top: 10px;
   }
   #solutionsBtn{
     width: 35%;
@@ -575,73 +625,73 @@ body{
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
+<<<<<<< Updated upstream
     font-size: 90%;
+=======
+    font-size: 80%;
+>>>>>>> Stashed changes
     padding-bottom: 50px;
+    padding-top: 10px;
   }
 }
 
-
-@media screen and (max-width: 475px) {
-  .content-main{
-    height: 170vh;
-  }
+@media screen and (min-width: 768px) {
   .h-wrapper{
     top: 6%;
     left: 50%;
     transform: translate(-50%, -6%);
-    width: 60%;
-    height: 15vh;
-    border: none;
-    border-bottom: 1px dashed #1d322b;
-  }
-  .h-wrapper a{
-    height: 55%;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 200%;
+    width: 70%;
+    height: 10%;
+    border-left: 1px dashed #1d322b;
   }
   .picture-wrapper{
+<<<<<<< Updated upstream
     top: 85%;
     left: 50%;
     transform: translate(-50%, -85%);
     height: 40%;
     width: 80%;
+=======
+    top: 40%;
+    left: -70%;
+    transform: translate(70%, -40%);
+>>>>>>> Stashed changes
   }
-
-  .picture-wrapper img{
-    position: absolute;
-    height: 511px;
-    width: 236px;
-    margin-left: 10px;
-  }
-
   .text-wrapper{
-    height: 45vh;
-    width: 80%;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-    border: none;
+    height: 25%;
+    width: 45%;
+    top: 40%;
+    left: 80%;
+    transform: translate(-80%, -40%);
+    border-left: 1px dashed #1d322b;
+    border-top: 1px dashed #1d322b;
+    font-size: 0.8em;
   }
   .app-main-wrapper{
-    width: 35%;
+    width: 25%;
     height: 4%;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    font-size: 90%;
-    padding-bottom: 50px;
+    top: 60%;
+    left: 80%;
+    transform: translate(-80%, -60%);
+    font-size: 70%;
+    padding-bottom: 40px;
   }
   #solutionsBtn{
-    width: 35%;
+    width: 25%;
     height: 4%;
+<<<<<<< Updated upstream
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: 90%;
     padding-bottom: 50px;
+=======
+    top: 70%;
+    left: 80%;
+    transform: translate(-80%, -70%);
+    font-size: 70%;
+    padding-bottom: 40px;
+>>>>>>> Stashed changes
   }
 }
 
@@ -656,7 +706,6 @@ body{
     width: 60%;
     height: 15vh;
     border: none;
-    border-bottom: 1px dashed #1d322b;
   }
   .h-wrapper a{
     height: 55%;
@@ -688,26 +737,35 @@ body{
     left: 50%;
     transform: translate(-50%, -20%);
     border: none;
+    font-size: 0.8em;
   }
   .app-main-wrapper{
     width: 35%;
     height: 4%;
-    top: 60%;
-    left: 25%;
-    transform: translate(-50%, -60%);
-    font-size: 90%;
-    padding-bottom: 50px;
+    top: 45%;
+    left: 20%;
+    transform: translate(-20%, -45%);
+    font-size: 70%;
+    padding-bottom: 40px;
   }
   #solutionsBtn{
     width: 35%;
     height: 4%;
     top: 45%;
+<<<<<<< Updated upstream
     left: 75%;
     transform: translate(-50%, -43%);
     font-size: 90%;
     padding-bottom: 50px;
+=======
+    left: 80%;
+    transform: translate(-80%, -45%);
+    font-size: 70%;
+    padding-bottom: 40px;
+>>>>>>> Stashed changes
   }
 }
+
 /* end tips / solutions */
 
 /*************** Tips - container *******************/
