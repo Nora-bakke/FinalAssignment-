@@ -721,6 +721,14 @@ a i{
     height: 40%;
     width: 80%;
   }
+
+  .picture-wrapper img{
+    position: absolute;
+    height: 511px;
+    width: 236px;
+    margin-left: 10px;
+  }
+
   .text-wrapper{
     height: 45vh;
     width: 80%;
@@ -742,6 +750,135 @@ a i{
     width: 35%;
     height: 4%;
     top: 43%;
+    left: 75%;
+    transform: translate(-50%, -43%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+}
+
+
+@media screen and (max-width: 475px) {
+  .content-main{
+    height: 170vh;
+  }
+  .h-wrapper{
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    width: 60%;
+    height: 15vh;
+    border: none;
+    border-bottom: 1px dashed #1d322b;
+  }
+  .h-wrapper a{
+    height: 55%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+  }
+  .picture-wrapper{
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    height: 40%;
+    width: 80%;
+  }
+
+  .picture-wrapper img{
+    position: absolute;
+    height: 511px;
+    width: 236px;
+    margin-left: 10px;
+  }
+
+  .text-wrapper{
+    height: 45vh;
+    width: 80%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border: none;
+  }
+  .app-main-wrapper{
+    width: 35%;
+    height: 4%;
+    top: 43%;
+    left: 25%;
+    transform: translate(-50%, -43%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+  #solutionsBtn{
+    width: 35%;
+    height: 4%;
+    top: 43%;
+    left: 75%;
+    transform: translate(-50%, -43%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-main{
+    height: 170vh;
+  }
+  .h-wrapper{
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    width: 60%;
+    height: 15vh;
+    border: none;
+    border-bottom: 1px dashed #1d322b;
+  }
+  .h-wrapper a{
+    height: 55%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+  }
+  .picture-wrapper{
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    height: 40%;
+    width: 80%;
+  }
+
+  .picture-wrapper img{
+    position: absolute;
+    height: 511px;
+    width: 236px;
+    margin-left: 10px;
+  }
+
+  .text-wrapper{
+    height: 45vh;
+    width: 80%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border: none;
+  }
+  .app-main-wrapper{
+    width: 35%;
+    height: 4%;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -60%);
+    font-size: 90%;
+    padding-bottom: 50px;
+  }
+  #solutionsBtn{
+    width: 35%;
+    height: 4%;
+    top: 45%;
     left: 75%;
     transform: translate(-50%, -43%);
     font-size: 90%;
