@@ -691,23 +691,22 @@ body{
   }
   .app-main-wrapper{
     width: 35%;
-    height: 4%;
-    top: 60%;
+    height: 1%;
+    top: 47%;
     left: 25%;
-    transform: translate(-50%, -60%);
-    font-size: 90%;
-    padding-bottom: 50px;
+    transform: translate(-50%, -47%);
+    font-size: 10px;
+    padding-bottom: 25px;
   }
   #solutionsBtn{
     width: 35%;
-    height: 4%;
-    top: 45%;
+    height: 1%;
+    top: 47%;
     left: 75%;
-    transform: translate(-50%, -43%);
-    font-size: 90%;
-    padding-bottom: 50px;
+    transform: translate(-50%, -47%);
+    font-size: 10px;
+    padding-bottom: 25px;
   }
-
   .msg-col{
     width: 700px;
     height: 380px;
@@ -1658,7 +1657,7 @@ margin-bottom: 20px;
 }
 
 
-@media screen and (max-width: 1294px) {
+/*@media screen and (max-width: 1294px) {
   .app-container {
     background-color: #9ebc99;
     padding: 20px;
@@ -1672,13 +1671,15 @@ margin-bottom: 20px;
     flex-direction: column;
     line-height: 1.5;
   }
-  .app-container h1 {
+
+.app-container h1 {
     color: #1d322b;
     text-align: center;
     margin-top: 50px;
     font-size: 40px;
     margin-bottom: 20px;
   }
+
   .app-container p {
     font-size: 16px;
   }
@@ -1703,10 +1704,6 @@ margin-bottom: 20px;
   }
 
 
-  /*.app-img{
-    margin-left: 165px;
-    border-radius: 2px;
-  }*/
 
   .app-text {
     width: 1050px;
@@ -1741,12 +1738,12 @@ margin-bottom: 20px;
     background-color: #8E44AD;
     border: none;
     color: white;
-  }
+  }*/
 
 @media screen and (max-width: 1122px) {
 .app-container {
   background-color: #9ebc99;
-  padding: 20px;
+  padding:20px;
   position: absolute;
   padding-top: 5px;
   height: 350vh;
@@ -1774,13 +1771,82 @@ margin-bottom: 20px;
 }
 
 .app-text {
-  width: 1050px;
+  width: 900px;
   margin-top: 20px;
   margin-left: 10px;
+  margin-right: 40px;
 }
 
 .app-text p{
   margin-bottom:10px;
+  margin-right: 40px;
+}
+
+.app-text h3{
+  padding-bottom: 0px;
+}
+.download-button {
+  text-align: center;
+  font-style: italic;
+}
+
+.btn {
+  background-color: #4A235A;
+  border: none;
+  color: #f4f4f4;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 2px;
+}
+.btn:hover{
+  background-color: #8E44AD;
+  border: none;
+  color: white;
+  }
+}
+@media screen and (max-width: 768px) {
+.app-container {
+  background-color: #9ebc99;
+  padding:20px;
+  position: absolute;
+  padding-top: 5px;
+  height: 350vh;
+  width: 100%;
+  top: 5%;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 1.5;
+}
+.app-container h1 {
+  color: #1d322b;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.app-container p {
+  font-size: 14px;
+
+}
+
+.app-img{
+  margin-left: 10px;
+  border-radius: 2px;
+}
+
+.app-text {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+
+
+}
+
+.app-text p{
+  margin-bottom:10px;
+
+
 }
 
 .app-text h3{
@@ -1807,7 +1873,7 @@ margin-bottom: 20px;
   }
 }
 
-  @media screen and (max-width: 500px){
+ @media screen and (max-width: 500px){
     .app-container {
       background-color: #9ebc99;
       padding: 20px;
@@ -1825,11 +1891,11 @@ margin-bottom: 20px;
       color: #1d322b;
       text-align: center;
       margin-top: 70px;
-      font-size: 70px;
+      font-size: 35px;
       margin-bottom: 35px;
     }
     .app-container p {
-      font-size: 35px;
+      font-size: 16px;
 
     }
 
@@ -1873,7 +1939,7 @@ margin-bottom: 20px;
 
     .app-text h4{
       padding-bottom: 0px;
-      font-size: 40px;
+      font-size: 25px;
     }
     .download-button {
       text-align: center;
@@ -1884,9 +1950,9 @@ margin-bottom: 20px;
       background-color: #4A235A;
       border: none;
       color: #f4f4f4;
-      padding: 12px 30px;
+      padding: 8px 25px;
       cursor: pointer;
-      font-size: 50px;
+      font-size: 35px;
       border-radius: 2px;
     }
     .btn:hover{
@@ -1896,6 +1962,95 @@ margin-bottom: 20px;
       }
     }
 
+    @media screen and (max-width: 320px){
+       .app-container {
+         background-color: #9ebc99;
+         padding: 20px;
+         position: absolute;
+         padding-top: 5px;
+         height: 700vh;
+         width: 100%;
+         top: 5%;
+         justify-content: flex-start;
+         flex-direction: column;
+         line-height: 1.5;
+       }
+
+       .app-container h1 {
+         color: #1d322b;
+         text-align: center;
+         margin-top: 70px;
+         font-size: 35px;
+         margin-bottom: 35px;
+       }
+       .app-container p {
+         font-size: 16px;
+
+       }
+
+       .app-container ul {
+       float: left;
+       list-style: none;
+       width: 100%;
+       margin-top:20px;
+       margin-bottom: 20px;
+       }
+
+       .app-container li {
+         text-decoration: none;
+         width: 25%;
+         display: inline-block;
+       }
+
+       .app-container img{
+         width: 100%;
+         border-radius: 3px;
+       }
+
+       .app-img{
+         margin-left: 10px;
+         border-radius: 2px;
+       }
+
+       .app-text {
+         width: 1050px;
+         margin-top: 20px;
+         margin-left: 5px;
+         width: 100%;
+
+       }
+
+       .app-text p{
+         margin-bottom:10px;
+         margin-right: 5px;
+         width: 100%;
+       }
+
+       .app-text h4{
+         padding-bottom: 0px;
+         font-size: 25px;
+       }
+       .download-button {
+         text-align: center;
+         font-style: italic;
+       }
+
+       .btn {
+         background-color: #4A235A;
+         border: none;
+         color: #f4f4f4;
+         padding: 8px 25px;
+         cursor: pointer;
+         font-size: 35px;
+         border-radius: 2px;
+       }
+       .btn:hover{
+         background-color: #8E44AD;
+         border: none;
+         color: white;
+         }
+       }
+
 /* End - app */
 
 /****************** contact contact-form ***************/
@@ -1904,7 +2059,7 @@ margin-bottom: 20px;
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 180vh;
+  height: 150vh;
   width: 100%;
   top: 10%;
   justify-content: flex-start;
@@ -1964,12 +2119,13 @@ input[type=submit]:hover {
 @media screen and (max-width: 1255px) {
 .contact-container {
   background-color: #9ebc99;
-  padding: 20px;
   position: absolute;
-  padding-top: 5px;
-  height: 150vh;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 140vh;
   width: 100%;
-  top: 10%;
+  top: 5%;
   justify-content: flex-start;
   flex-direction: column;
 
@@ -2032,7 +2188,7 @@ input[type=submit]:hover {
   padding-top: 5px;
   height: 130vh;
   width: 100%;
-  top: 10%;
+  top: 5%;
   justify-content: flex-start;
   flex-direction: column;
 
@@ -2097,9 +2253,9 @@ input[type=submit]:hover {
   padding: 20px;
   position: absolute;
   padding-top: 5px;
-  height: 120vh;
+  height: 130vh;
   width: 100%;
-  top: 10%;
+  top: 5%;
   justify-content: flex-start;
   flex-direction: column;
 
@@ -2161,7 +2317,7 @@ input[type=submit]:hover {
   position: absolute;
   padding-top: 20px;
   height: 140vh;
-  width: 100%;
+  width: 405px;
   top: 8%;
   justify-content: flex-start;
   flex-direction: column;
@@ -2228,9 +2384,9 @@ input[type=submit]:hover {
     background-color: #9ebc99;
     padding: 0px;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 30px;
     height: 150vh;
-    width: 120%;
+    width: 402px;
     top: 8%;
     justify-content: flex-start;
     flex-direction: column;
